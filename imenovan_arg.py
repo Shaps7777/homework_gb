@@ -21,10 +21,14 @@ def choice_menu():  # Запрос выбора
         print('Некорректный ввод. Введите одну из цифр - 1, 2 или 3')
 
 
-#  В функцию отправляются поименованные по ключу значения, возвращается СЛОВАРЬ (?)
+# В функцию отправляются поименованные по ключу значения, возвращается СЛОВАРЬ (?)
 def create_new_item(Name, Surname, Year_of_birth, City, email, pfone_num):
     return f"Name - {Name}, Surname - {Surname}, Year_of_birth - {Year_of_birth}," \
            f"City - {City}, email - {email}, Pfone_num - {pfone_num}"
+
+
+# def create_new_item(**kwargs):
+#     return ' '.join(kwargs. values())
 
 
 def show_database(database):
