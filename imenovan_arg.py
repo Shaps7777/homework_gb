@@ -15,12 +15,13 @@ def menu():  # Меню выбора
 
 def choice_menu():  # Запрос выбора
     while True:
-        choice = input('ваш выбор: ')
+        choice = input('Ваш выбор: ')
         if choice in ('1', '2', '3'):
             return choice
         print('Некорректный ввод. Введите одну из цифр - 1, 2 или 3')
 
 
+#  В функцию отправляются поименованные по ключу значения, возвращается СЛОВАРЬ (?)
 def create_new_item(Name, Surname, Year_of_birth, City, email, pfone_num):
     return f"Name - {Name}, Surname - {Surname}, Year_of_birth - {Year_of_birth}," \
            f"City - {City}, email - {email}, Pfone_num - {pfone_num}"
@@ -56,5 +57,6 @@ def main():
             show_database(database)
         elif choice == '3':
             break
+
 
 main()
