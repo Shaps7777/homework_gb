@@ -26,7 +26,7 @@ def create_new_item(Name, Surname, Year_of_birth, City, email, pfone_num):
     return f"Name - {Name}, Surname - {Surname}, Year_of_birth - {Year_of_birth}," \
            f"City - {City}, email - {email}, Pfone_num - {pfone_num}"
 
-
+# Подобная выше функция, но дает вывод данных без наименования 
 # def create_new_item(**kwargs):
 #     return ' '.join(kwargs. values())
 
