@@ -16,7 +16,7 @@
 def sum_list():
     s = 0
     while True:
-        in_list = input('Ведите числа и по завершению Enter, '
+        in_list = input('Ведите числа ЧЕРЕЗ ПРОБЕЛ и по завершению Enter, '
                         'для выхода - q: ').split()
         for num in in_list:
             if num == 'q':
