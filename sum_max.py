@@ -23,7 +23,14 @@ def my_f_2(num_1, num_2, num_3):
     return sum(sorted(my_list)[1:])
 
 
+# 3 вариант.
+my_f_3 = lambda num_1, num_2, num_3: \
+    (num_1 + num_2 + num_3) - min(num_1, num_2, num_3)
+
+
 my_sum = my_f(1, 2, 3)
 print(my_sum)
 my_sum = my_f_2(1, 2, 3)
+print(my_sum)
+my_sum = my_f_3(1, 2, 3)
 print(my_sum)
