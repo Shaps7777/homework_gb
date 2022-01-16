@@ -5,15 +5,22 @@
 """
 from random import randint
 
-data_list = []
+data_s_list = []
 
 
 def my_random():
+    data_list = []
+    data_s = {}
     for _ in range(10):
         data = randint(0, 100)
         data_list.append(data)
-        data_list.sort(reverse=True)
+        data_s = set(data_list)
+        data_s_list = list(data_s)
+        data_s_list.sort(reverse=True)
+    print(data_s_list)
+    return data_s_list
 
 
-my_random()
-print(data_list)
+a = my_random()
+
+print(a)
