@@ -1,0 +1,5 @@
+{
+    "name": "Tom",
+    "age": 45,
+    "cars": ['ferrari', 'audi']
+}
