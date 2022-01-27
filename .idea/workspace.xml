@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="258e1a90-91e5-43e8-bff5-5345c5408c5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/reed_write_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reed_write_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/reed_write_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/degree.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Python.dict_work">
+  <component name="RunManager" selected="Python.reed_write_file">
     <configuration name="dict_work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dict_work" />
         <item itemvalue="Python.reed_write_file" />
+        <item itemvalue="Python.dict_work" />
         <item itemvalue="Python.sys_module" />
         <item itemvalue="Python.shutil_sample" />
         <item itemvalue="Python.json_module" />
